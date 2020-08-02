@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Me </title>
+        <link href="css/main.css" media="all " rel="stylesheet">
+    </head>
+    <body>
+        <header id="header">
+            <a href="#" class="logo">Ariadne</a>
+            <ul>
+                <li><a href="#home" class="active">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="">service</a></li>
+                <li><a href="">home</a></li>
+            </ul>
+            <div class="toggle" onclick="toggle()"></div>
+        </header>
+
+        <section id="home">
+            <div id="imagem">
+              <img src="img/s4.png"/>
+            </div>
+            <h2 id="name">Hi Ariadne</h2>
+        
+            <p id="conteudo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime minus voluptatem praesentium saepe quia! Sint, deleniti debitis nobis, et numquam id officia porro odit laboriosam saepe tempore sequi reiciendis veniam.</p>
+            <a href="#">Read More</a>
+        </section>
+        
+        
+    <footer class="rodape">
+        Todos direitos reservados
+    </footer>
+    <script type="text/javascript">
+        function toggle(){
+            var header = document.getElementById("header")
+            header.classList.toggle('active')
+        }
+    </script>
+    </body>
+</html>
